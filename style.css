@@ -48,10 +48,10 @@ input, select { vertical-align: middle; }
 
 header {
 	background: rgb(255, 255, 255);
-  position: fixed;
-  width: 100%;
+	position: fixed;
+	width: 100%;
 	z-index: 99;
-  height: 75px;
+	height: 75px;
 }
 .logo {
     height: 100px;
@@ -115,6 +115,7 @@ nav a:hover {
 	background: url("https://letmekissyourface.files.wordpress.com/2012/06/img_0067.jpg?w=760&h=760");
 	background-size: cover;
 	overflow: scroll;
+	box-shadow: 0px 0px 10px;
 }
 #container {
   background: rgba(36, 36, 36, .5);
@@ -145,17 +146,6 @@ p {
   margin-top: 30px;
   height: 300px;
 }
-
-h1#popup {
-    font-size: 60px;
-    color: #ffffff;
-    font-weight: lighter;
-    font-family: 'Mrs Saint Delafield';
-    font-style: italic;
-    letter-spacing: 5px;
-    text-align: center;
-    margin-top: 10px;
-}
 #sprites li {
 	margin: 0;
 	padding: 0;
@@ -173,62 +163,3 @@ h1#popup {
 #instagram a:hover {
 	background: url("/social.png") no-repeat 0px -32px;
 }
-#twitter {
-	background: url("/social.png") no-repeat -34px 0px;
-}
-#twitter a:hover {
-	background: url("/social.png") no-repeat -34px -32px;
-}
-#dribbble {
-	background: url("/social.png") no-repeat -66px 0px;
-}
-#dribbble a:hover {
-	background: url("/social.png") no-repeat -66px -32px;
-}
-
-#web {
-	background: url("/DeathtoStock_Medium2.jpg");
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;
-	}
-#resume {
-	width: 400px;
-	height: 500px;
-	position: fixed;
-	top: 42px;
-	right: 0px;
-	background: rgba(255, 255, 255, 0.8);
-	border-radius: 5px 0px 0px 5px;
-	padding: 30px;
-	padding-right: 0px;
-	overflow-y: scroll;
-	}	
-h1#resume-title {
-	color: #242424;
-	font-size: 44px;
-	font-family: "Tinos", serif;
-	font-weight: 600;
-	letter-spacing: 1.5px;
-	}
-h2#resume-subtitle {
-	color: #ffffff;
-	font-size: 24px;
-	font-family: "Tinos", serif;
-	font-weight: 100;
-	letter-spacing: .5px;
-	background: rgba(36, 36, 36, .8);
-	border-radius: 0px 0px 0px 5px;
-	line-height: 150%;
-	padding-left: 10px;
-	margin-top: 30px;
-	}
-p.resume-content {
-	font-family: "Tinos", serif;
-	font-size: 16px;
-	color: #242424;
-	margin-top: 30px;
-	margin-right: 30px;
-	line-height: 150%;
-	color: #242424
-	}
